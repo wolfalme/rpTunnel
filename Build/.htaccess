@@ -1,0 +1,6 @@
+<IfModule mod_mime.c>
+    AddEncoding br .br
+    AddType application/wasm .wasm.br
+    AddType application/javascript .js.br
+    AddType application/octet-stream .data.br
+</IfModule>

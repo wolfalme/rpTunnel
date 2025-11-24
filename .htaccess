@@ -1,0 +1,10 @@
+AddEncoding br .br
+<FilesMatch "\.js\.br$">
+  ForceType application/javascript
+</FilesMatch>
+<FilesMatch "\.wasm\.br$">
+  ForceType application/wasm
+</FilesMatch>
+<FilesMatch "\.data\.br$">
+  ForceType application/octet-stream
+</FilesMatch>
